@@ -1,0 +1,7 @@
+<div class="container container-fluid">
+  <div class="row">
+    <app-product-card *ngFor="let item of catalogItems$ | async"
+        [productData]="item"></app-product-card>
+  </div>
+
+</div>
