@@ -1,5 +1,5 @@
-<div class="container container-fluid">
-  <div class="row">
+<div class="container">
+  <div class="row justify-content-center">
     <app-product-card *ngFor="let item of catalogItems$ | async"
         [productData]="item"></app-product-card>
   </div>

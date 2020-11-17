@@ -3,3 +3,16 @@
     height: 15vw;
     object-fit: cover;
 }
+.card {
+  height: 20rem;
+  width: 15rem;
+  margin: 0.5rem;
+}
+
+.card-title {
+  font-size: 100%;
+}
+
+#catalog-button-details {
+  margin-top: 1rem;
+}
